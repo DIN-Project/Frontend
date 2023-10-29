@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+}
+
+.box{
+    width: 250px;
+    border: 1px solid black;
+}
+
+.box li{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}

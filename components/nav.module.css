@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.back {
+    background-color: #99DAFF;
+    margin: -8px;
+}
+
+.nav img{
+    max-width: 50px;
+}

@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer ul{
+    list-style: none;
+    display: inline;
+    gap: 2rem;
+}
+
+.back {
+    background-color: #99DAFF;
+    margin: -8px;
+}
+
+.footer img{
+    max-width: 90px;
+}

@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+}
+
+.container ul li{
+    list-style: none;
+}
+.title{
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+.customsize{
+    font-size: 25px;
+}
+
+.alv {
+    font-size: 15px;
+    color: rgb(206, 212, 218);
+    padding-bottom: 20px;
+}
+
+.itemdetails {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+}
