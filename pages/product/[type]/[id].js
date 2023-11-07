@@ -1,6 +1,6 @@
-import Nav from '../../components/nav.js'
-import Footer from '../../components/footer.js'
-import styles from '../../styles/productpage.module.css'
+import Nav from '../../../components/nav.js'
+import Footer from '../../../components/footer.js'
+import styles from '../../../styles/productpage.module.css'
 
 
 export default function ProductPage({product}){
@@ -24,14 +24,22 @@ export default function ProductPage({product}){
     );
 }
 
-export async function getServerSideProps(context){
-    const {id} = context.query
-    const res = await fetch(`http://localhost:5283/Motherboard/${id}`);
+export async function getServerSideProps(context) {
+    const { type, id } = context.query;
+
+    // Using type and id to determine what item to fetch
+    let res;
+    if (type === 'Motherboard') {
+        res = await fetch(`http://localhost:5283/Motherboard/${id}`);
+    } else if (type === 'Case') {
+        res = await fetch(`http://localhost:5283/Case/${id}`);
+    }
+
     const product = await res.json();
 
     return {
         props: {
-          product,
+            product,
         },
     };
 }
