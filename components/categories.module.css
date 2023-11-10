@@ -1,0 +1,15 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    padding: 3px;
+    border: 1px solid #000000;
+}
+
+.list a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}

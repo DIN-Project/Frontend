@@ -1,14 +1,21 @@
-.container{
+.container {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
     padding: 25px 0px 25px 0px;
+    min-height: 78.4vh;
 }
 
-.box{
-    width: 250px;
-    border: 1px solid black;
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+
+.rightSection {
+    width: 80%; 
 }
 
 .link {
@@ -16,10 +23,30 @@
     color: inherit;
 }
 
-.box li{
-    list-style: none;
+.productList {
     display: flex;
-    gap: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.productInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.productName {
+    font-weight: bold;
 }

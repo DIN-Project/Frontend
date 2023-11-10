@@ -24,3 +24,8 @@
 .footer img{
     max-width: 90px;
 }
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}

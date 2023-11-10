@@ -4,12 +4,13 @@
   min-height: 100vh;
 }
 
-.container{
+.container, .categories{
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
   margin: auto;
   padding: 25px 0px 25px 0px;
+  list-style: none;
 }
 
 .recommendation{
@@ -18,10 +19,12 @@
   max-width: 1000px;
   margin: auto;
 }
+
 .box{
   width: 250px;
   border: 1px solid black;
   border-radius: 12px;
+  margin: 5px;
 }
 
 .link {
@@ -43,6 +46,44 @@
 }
 
 .box img{
-  border-top-left-radius: 10px;    /* Adjust the radius as needed */
-  border-top-right-radius: 10px;   /* Adjust the radius as needed */
+  border-radius: 10px 10px 0px 0px;
+  width: 250px;
+  height: 250px;
+}
+
+.categories ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.categories ul li {
+  flex: 1;
+  display: block;
+  text-align: center;
+  background-color: #99daff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categories ul a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custombutton {
+  width: 100%;
+  background-color: #99daff;
+  color: #f5f5f5;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
 }
