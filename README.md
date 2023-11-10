@@ -17,6 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Depending on what port backend opens up on you might need to do changes to port what frontend is trying to fetch.
 
 Link to video to showcase how the website looks and functions:
+https://youtu.be/TFIZclKyARM
 
 
 
