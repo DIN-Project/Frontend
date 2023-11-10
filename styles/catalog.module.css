@@ -44,9 +44,27 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin: auto;
+
 }
 
 .productName {
     font-weight: bold;
+}
+
+.priceAndCart {
+    margin: auto;
+    text-align: center;
+}
+
+.custombutton {
+    width: 100%;
+    background-color: #99daff;
+    color: #f5f5f5;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
 }

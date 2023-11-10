@@ -54,9 +54,9 @@ export default function CategoryPage({products}){
                                         <div className={styles.productName}>{product.name}</div>
                                     </Link>
                                 </div>
-                                <div>
+                                <div className={styles.priceAndCart}>
                                     <div className={styles.productPrice}>{product.price}€</div>
-                                    <button onClick={() => itemToCart(product)}>Add to cart</button>
+                                    <button className={styles.custombutton} onClick={() => itemToCart(product)}>Add to cart</button>
                                 </div>
                             </div>
                         ))}
