@@ -5,9 +5,9 @@ This is the frontend for the project, it was made using Next.js
 First, install and run the development server:
 
 ```bash
-#First
+# First
 npm install
-#Then
+# Then
 npm run dev
 # or
 yarn dev
